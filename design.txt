@@ -1,0 +1,14 @@
+Sydney Umezurike 
+design.txt
+
+Design Overview:
+
+For this project, I focused on keeping the design clean and easy to maintain. I used classes and objects to structure the code, allowing me to keep the game’s parts—like the cards, UI, and leaderboard—separate and more manageable. This structure made it easier to handle the different game mechanics, like how cards flip and match, as well as how guesses and matches are tracked. To make the game look better, I designed custom card backs that match the splash screen, giving the game a more polished, cohesive feel. This game is best played in full screen.
+
+Trade-offs and Decisions:
+
+To keep everything organized, I broke the project into several smaller files, each handling a different part of the game. This made the code more manageable and helped me avoid cluttering everything into one file. A decision I had to make was to go with a static end credits screen instead of an animated one. I initially wanted to create an animated sequence, but since using tkinter wasn’t allowed, I opted for a simpler, static version instead. I also faced some challenges with updating the text in the status bar, so I used a rectangle to block out the old text and display the new text over it. It wasn’t the ideal solution, but it worked.
+
+Bonus Points:
+
+For the bonus points, I added the ability to load custom card decks. Players can load their own deck by putting a .txt file with the image names (no file paths) into the assets folder, along with the corresponding images. This allows players to customize their experience with their own card designs. I also added a "Load New Deck" button, which lets players switch to a different deck during the game. There’s a sample file, `custom_deck.txt`, included for testing. This feature makes the game more flexible by allowing users to add and load custom decks.
