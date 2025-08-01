@@ -23,5 +23,5 @@ A simple memory card matching game built in Python. Players flip cards to find m
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/memory-card-game.git
+   git clone https://github.com/SydneyTalksCode/memory-game.git
    cd memory-card-game
