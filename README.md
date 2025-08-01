@@ -17,8 +17,7 @@ A simple memory card matching game built in Python. Players flip cards to find m
 ## How to Run Locally
 
 ### Requirements
-- Python 3.x  
-- (Optional) Pygame or other libraries (if your game uses them)  
+- Python 3.x    
 - All image files stored in the `assets/` folder
 
 ### Steps
